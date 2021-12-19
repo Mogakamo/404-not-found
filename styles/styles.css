@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.text {
+    height: 25px;
+    width: 133px;
+    left: 77px;
+    top: 40px;
+    font-weight: bold;
+}
