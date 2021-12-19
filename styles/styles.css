@@ -105,9 +105,13 @@ footer a:active {
 }
 
 /* Responsive design */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1115px) {
     .left, .right, footer {
         width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     .text {
@@ -134,7 +138,6 @@ footer a:active {
         font-style: normal;
         line-height: 71px;
         letter-spacing: -0.035em;
-        margin-left: 15px;
         text-align: center;
     }
 
