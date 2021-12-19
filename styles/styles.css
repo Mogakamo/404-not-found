@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     min-width: 100vw;
-    
+
 }
 
 .left {
@@ -26,4 +26,9 @@ body {
     left: 77px;
     top: 40px;
     font-weight: bold;
+}
+
+.homepage {
+    background-color: #333333;
+    
 }
