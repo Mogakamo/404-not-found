@@ -1,3 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +27,9 @@ body {
 .text {
     height: 25px;
     width: 133px;
-    left: 77px;
-    top: 40px;
-    font-weight: bold;
+    margin-left: 27px;
+    margin-top: 10px;
+    font-family: "Inconsolata", monospace;
 }
 
 .homepage {
@@ -34,8 +38,8 @@ body {
 }
 
 img {
-    height: 447.43px;
-    width: 539.22px;
+    height: 400px;
+    width: 500px;
     margin-left: 77px;
     margin-top: 65px;
 }
@@ -43,5 +47,6 @@ img {
 footer {
     position: absolute;
     bottom: 0;
-    margin-left: 35px;
+    margin-left: 555px;
+    padding: 10px;
 }
