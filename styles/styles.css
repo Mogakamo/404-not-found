@@ -5,19 +5,19 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     min-width: 100vw;
 
 }
 
 .left {
-    flex: 1;
+    width: 40%;
+    float: left;
 }
 
 .right {
-    flex: 1;
+    width: 60%;
+    float: left;
 }
 
 .text {
@@ -31,4 +31,9 @@ body {
 .homepage {
     background-color: #333333;
     
+}
+
+img {
+    height: 30px;
+    width: 20px;
 }
