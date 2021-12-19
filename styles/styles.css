@@ -39,6 +39,7 @@ h1 {
     color: #4F4F4F;
     font-size: 24px;
     line-height: 36px;
+    margin-top: 50px;
     letter-spacing: -0.035em;
 }
 
@@ -54,6 +55,8 @@ h1 {
 button {
     width: 190px;
     height: 55px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #333333;
 }
 
@@ -121,9 +124,31 @@ footer a:active {
     img {
         height: 220.35203552246094px;
         width: 286.829833984375px;
-        left: 44px;
+        margin-left: 24px;
         top: 109px;
         border-radius: 0px;
-        
+    }
+    
+    h1 {
+        font-family: 'Space Mono', monospace;
+        font-style: normal;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .right p {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 25px;
+        align-self: center;
+    }
+
+    footer {
+        position: inherit;
+        margin-left: 0;
     }
 }
