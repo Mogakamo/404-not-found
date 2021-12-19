@@ -100,3 +100,30 @@ footer a:hover {
 footer a:active {
     color: #333333;
 }
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+    .left, .right, footer {
+        width: 100%;
+    }
+
+    .text {
+        font-family: "Inconsolata", monospace;
+        font-weight: 700;
+        font-style: normal;
+        position: absolute;
+        top: 20px;
+        left: 24px;
+        width: 133px;
+        height: 25px;
+    }
+
+    img {
+        height: 220.35203552246094px;
+        width: 286.829833984375px;
+        left: 44px;
+        top: 109px;
+        border-radius: 0px;
+        
+    }
+}
