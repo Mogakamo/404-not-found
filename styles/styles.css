@@ -52,9 +52,20 @@ h1 {
     font-family: "Inconsolata", monospace;
 }
 
-.homepage {
+button {
+    width: 190px;
+    height: 55px;
     background-color: #333333;
-    
+}
+
+.homepage {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    line-height: 21px;
 }
 
 img {
